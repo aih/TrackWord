@@ -1,0 +1,18 @@
+[1mdiff --git a/SampleDoc.docx b/SampleDoc.docx[m
+[1mindex c83e9e4..26f5eef 100644[m
+[1m--- a/SampleDoc.docx[m
+[1m+++ b/SampleDoc.docx[m
+[36m@@ -1,3 +1,13 @@[m
+[32m#### Instructions[m
+
+Copy your sample [31mdoc[m[32mdocument[m here. [31mAfter making changes,[m[32mAdd a ‘git hook’ in the .git/hooks[m
+[32mdirectory called ‘pre-commit’ (with no extension). The file should have[m
+[32mthe following two lines:[m
+
+[32m\#!/bin/sh[m
+
+[32m./makediff.sh[m
+
+[32mMake changes in MS Word, and[m commit your changes in git. [31mA MS Compare file[m[32mThe script that[m
+[32mis called in the git hook[m will[31mbe[m automatically [31mcreated,[m[32mcreate an MS Compare file,[m
+along with a changes.html to show the changes.
