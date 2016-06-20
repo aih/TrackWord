@@ -1,0 +1,9 @@
+[1mdiff --git a/SampleDoc.docx b/SampleDoc.docx[m
+[1mindex 26f5eef..5012149 100644[m
+[1m--- a/SampleDoc.docx[m
+[1m+++ b/SampleDoc.docx[m
+[36m@@ -10,2 +10,4 @@[m [mthe following two lines:[m
+
+[32mChange “SampleDoc” in makediff.sh file to the name of your document.[m
+
+Make changes in MS Word, and commit your changes in git. The script that[m
